@@ -13,169 +13,329 @@ body,table,td,a{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
 table,td{mso-table-lspace:0pt;mso-table-rspace:0pt}
 img{-ms-interpolation-mode:bicubic;border:0;outline:none;text-decoration:none;display:block}
 body{margin:0;padding:0;width:100%!important;background-color:#EDE8E0}
-@media only screen and (max-width:480px){
-  .body-cell{padding:32px 20px 28px!important}
-  .h1{font-size:24px!important}
-  .footer-cell{padding:32px 20px 24px!important}
+a{color:inherit;text-decoration:none}
+@media only screen and (max-width:500px){
+  .w600{width:100%!important}
+  .body-pad{padding:36px 24px 32px!important}
+  .foot-pad{padding:36px 24px 28px!important}
+  .h1{font-size:26px!important;line-height:1.2!important}
+  .hero-img{height:240px!important}
 }
 </style>
 </head>
 <body style="margin:0;padding:0;background-color:#EDE8E0;">
-<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
-<tr><td align="center" style="padding:32px 0;">
 
-<!-- EMAIL CONTAINER -->
-<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" style="max-width:600px;width:100%;background-color:#FAF7F2;" role="presentation">
+<!-- OUTER WRAPPER -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr><td align="center" style="padding:40px 0 48px;">
 
-<!-- ══ HEADER ══════════════════════════════════════════ -->
+<!-- CONTAINER -->
+<table class="w600" width="600" cellpadding="0" cellspacing="0" border="0"
+  style="max-width:600px;background-color:#FAF7F2;border:1px solid #DDD7CD;">
+
+<!-- ══ 1. HEADER ══════════════════════════════════════════════════ -->
 <tr>
-  <td align="center" style="background-color:#2C2420;padding:26px 40px;border-bottom:1px solid rgba(196,169,108,0.2);">
-    <img src="https://raw.githubusercontent.com/JWAssets01/jws-assets/main/assets/jw-logo-white.png" alt="John White Shoes" width="140" height="auto" style="display:block;margin:0 auto;max-width:140px;">
+  <td align="center"
+    style="background-color:#2C2420;padding:22px 40px;border-bottom:1px solid rgba(196,169,108,0.18);">
+    <img src="https://raw.githubusercontent.com/JWAssets01/jws-assets/main/assets/jw-logo-white.png" alt="John White Shoes" width="110" height="auto"
+      style="display:block;margin:0 auto;max-width:110px;height:auto;">
   </td>
 </tr>
 
-<!-- ══ HERO IMAGE ══════════════════════════════════════ -->
+<!-- ══ 2. HERO IMAGE ══════════════════════════════════════════════ -->
 <tr>
-  <td style="padding:0;line-height:0;">
-    <img src="https://raw.githubusercontent.com/JWAssets01/jws-assets/main/emails/brecon-hero-email.png" alt="Brecon Chelsea Boot — Heritage Story" width="600" style="display:block;width:100%;max-width:600px;height:auto;">
+  <td style="padding:0;line-height:0;font-size:0;">
+    <img class="hero-img" src="https://raw.githubusercontent.com/JWAssets01/jws-assets/main/emails/brecon-hero-email.png"
+      alt="Brecon Chelsea Boot in Brown" width="600"
+      style="display:block;width:100%;max-width:600px;height:auto;max-height:380px;object-fit:cover;">
   </td>
 </tr>
 
-<!-- ══ HERO CAPTION ════════════════════════════════════ -->
+<!-- ══ 3. CAPTION BAR ════════════════════════════════════════════ -->
 <tr>
-  <td align="center" style="background-color:rgba(44,36,32,0.92);padding:10px 20px;background-color:#2C2420;">
-    <span style="font-family:'Outfit',Arial,sans-serif;font-size:10px;font-weight:300;letter-spacing:0.28em;text-transform:uppercase;color:#C4A96C;">Brecon Chelsea Boot &nbsp;·&nbsp; Brown &nbsp;·&nbsp; £260</span>
+  <td align="center"
+    style="background-color:#2C2420;padding:9px 20px;">
+    <span style="font-family:'Outfit',Arial,sans-serif;font-size:9px;font-weight:300;
+      letter-spacing:0.32em;text-transform:uppercase;color:#C4A96C;">
+      Brecon Chelsea Boot &nbsp;·&nbsp; Brown &nbsp;·&nbsp; £260
+    </span>
   </td>
 </tr>
 
-<!-- ══ BODY ════════════════════════════════════════════ -->
+<!-- ══ 4. SECTION LABEL + THIN GOLD RULE ═════════════════════════ -->
 <tr>
-  <td class="body-cell" style="padding:48px 48px 36px;">
-
-    <!-- Gold gradient rule (top) -->
+  <td style="padding:40px 48px 0;">
+    <!-- Gold rule -->
     <table width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
-      <td style="height:1px;background:linear-gradient(to right,#FAF7F2,#C4A96C 30%,#7A6548 50%,#C4A96C 70%,#FAF7F2);padding:0;margin-bottom:28px;font-size:0;line-height:0;">&nbsp;</td>
-    </tr></table>
-    <div style="height:28px;"></div>
-
-    <!-- Section label -->
-    <p style="font-family:'Outfit',Arial,sans-serif;font-size:10px;font-weight:300;letter-spacing:0.3em;text-transform:uppercase;color:#7A6548;margin:0 0 16px;padding:0;">New Arrival</p>
-
-    <!-- Headline -->
-    <h1 class="h1" style="font-family:'Playfair Display',Georgia,serif;font-size:30px;font-weight:400;line-height:1.22;color:#2C2420;margin:0 0 8px;padding:0;">A Chelsea Boot Built to Endure</h1>
-
-    <!-- Subheadline -->
-    <p style="font-family:'Playfair Display',Georgia,serif;font-size:19px;font-weight:400;font-style:italic;color:#7A6548;margin:0 0 28px;padding:0;line-height:1.3;">Carrying forward a century of British design heritage.</p>
-
-    <!-- Gold gradient divider -->
-    <table width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
-      <td style="height:1px;background:linear-gradient(to right,#FAF7F2,#C4A96C 30%,#7A6548 50%,#C4A96C 70%,#FAF7F2);font-size:0;line-height:0;">&nbsp;</td>
-    </tr></table>
-    <div style="height:28px;"></div>
-
-    <!-- Lead paragraph -->
-    <p style="font-family:'Cormorant Garamond',Georgia,serif;font-size:18px;font-weight:400;line-height:1.85;color:#2C2420;margin:0 0 20px;padding:0;">There are shoes bought for the season, and shoes that outlast a wardrobe. The Brecon Chelsea Boot was designed with the latter in mind — a considered piece built on over 100 years of British design heritage, and priced accordingly at £260.</p>
-
-    <!-- Body paragraph 1 -->
-    <p style="font-family:'Cormorant Garamond',Georgia,serif;font-size:17px;font-weight:300;line-height:1.85;color:#635A53;margin:0 0 20px;padding:0;">Premium polished calf leather forms the upper, paired with a full leather lining and suede heel counter that shapes to the foot over time. A removable leather cup insole offers cushioned support without compromising the clean, structured lines that define a proper Chelsea. Beneath it all, a density impact studded rubber sole and storm welt provide grip and durability — built equally for city pavements and weekend lanes.</p>
-
-    <!-- Pull quote -->
-    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:24px 0;"><tr>
-      <td style="border-left:2px solid #C4A96C;padding:14px 20px;background-color:rgba(196,169,108,0.06);">
-        <p style="font-family:'Playfair Display',Georgia,serif;font-size:18px;font-style:italic;color:#2C2420;margin:0;line-height:1.6;">&ldquo;Not bought for the season. Worn for the decade.&rdquo;</p>
+      <td style="height:1px;font-size:0;line-height:0;
+        background:linear-gradient(to right,transparent,#C4A96C 35%,#7A6548 50%,#C4A96C 65%,transparent);">
       </td>
     </tr></table>
+    <div style="height:20px;"></div>
+    <!-- Label -->
+    <p style="margin:0 0 20px;padding:0;
+      font-family:'Outfit',Arial,sans-serif;font-size:9px;font-weight:300;
+      letter-spacing:0.35em;text-transform:uppercase;color:#7A6548;">
+      New Arrival
+    </p>
+  </td>
+</tr>
 
-    <!-- Body paragraph 2 -->
-    <p style="font-family:'Cormorant Garamond',Georgia,serif;font-size:17px;font-weight:300;line-height:1.85;color:#635A53;margin:0 0 20px;padding:0;">The Brecon works as well with a suit as it does with weekend denim. It is, in the truest sense, a boot designed not for the moment but for the years ahead — the kind of piece that earns its place in a wardrobe and simply stays there.</p>
+<!-- ══ 5. HEADLINE BLOCK ══════════════════════════════════════════ -->
+<tr>
+  <td style="padding:0 48px;">
+    <h1 class="h1" style="margin:0 0 10px;padding:0;
+      font-family:'Playfair Display',Georgia,serif;font-size:36px;font-weight:400;
+      line-height:1.15;color:#2C2420;letter-spacing:-0.01em;">
+      The Brecon
+    </h1>
+    <p style="margin:0 0 32px;padding:0;
+      font-family:'Playfair Display',Georgia,serif;font-size:17px;font-weight:400;
+      font-style:italic;line-height:1.4;color:#7A6548;">
+      A Chelsea boot that earns its place.
+    </p>
+  </td>
+</tr>
 
-    <!-- Specs strip -->
-    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#EDE8E0;border:1px solid #DDD7CD;margin:28px 0;">
-      <tr><td style="padding:20px 24px;">
-        <table width="100%" cellpadding="0" cellspacing="0" border="0">
-          <tr>
-            <td style="font-family:'Outfit',Arial,sans-serif;font-size:10px;font-weight:300;letter-spacing:0.2em;text-transform:uppercase;color:#7A6548;width:38%;padding:7px 0;border-bottom:1px solid #DDD7CD;">Upper</td>
-            <td style="font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;color:#2C2420;padding:7px 0;border-bottom:1px solid #DDD7CD;">Premium polished calf leather</td>
-          </tr>
-          <tr>
-            <td style="font-family:'Outfit',Arial,sans-serif;font-size:10px;font-weight:300;letter-spacing:0.2em;text-transform:uppercase;color:#7A6548;padding:7px 0;border-bottom:1px solid #DDD7CD;">Lining</td>
-            <td style="font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;color:#2C2420;padding:7px 0;border-bottom:1px solid #DDD7CD;">Full leather &amp; suede heel counter</td>
-          </tr>
-          <tr>
-            <td style="font-family:'Outfit',Arial,sans-serif;font-size:10px;font-weight:300;letter-spacing:0.2em;text-transform:uppercase;color:#7A6548;padding:7px 0;border-bottom:1px solid #DDD7CD;">Sole</td>
-            <td style="font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;color:#2C2420;padding:7px 0;border-bottom:1px solid #DDD7CD;">Durable rubber — weatherproof</td>
-          </tr>
-          <tr>
-            <td style="font-family:'Outfit',Arial,sans-serif;font-size:10px;font-weight:300;letter-spacing:0.2em;text-transform:uppercase;color:#7A6548;padding:7px 0;">Price</td>
-            <td style="font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;font-weight:400;color:#2C2420;padding:7px 0;">£260.00</td>
-          </tr>
-        </table>
-      </td></tr>
+<!-- ══ 6. INTRO (LEAD) ════════════════════════════════════════════ -->
+<tr>
+  <td style="padding:0 48px 24px;">
+    <p style="margin:0;padding:0;
+      font-family:'Cormorant Garamond',Georgia,serif;font-size:19px;font-weight:400;
+      line-height:1.9;color:#2C2420;">
+      There are shoes bought for a season. Then there are shoes that outlast a wardrobe. The Brecon is the latter — a considered piece built on a century of British design heritage, and made to wear for years.
+    </p>
+  </td>
+</tr>
+
+<!-- ══ 7. BODY PARA 1 ════════════════════════════════════════════ -->
+<tr>
+  <td style="padding:0 48px 24px;">
+    <p style="margin:0;padding:0;
+      font-family:'Cormorant Garamond',Georgia,serif;font-size:17px;font-weight:300;
+      line-height:1.95;color:#635A53;">
+      The upper is premium polished calf leather. The lining is full leather, with a suede heel counter that shapes quietly to the foot over time. A removable leather cup insole; a studded rubber sole for grip that holds on city stone and country lane alike.
+    </p>
+  </td>
+</tr>
+
+<!-- ══ 8. PULL QUOTE ══════════════════════════════════════════════ -->
+<tr>
+  <td style="padding:4px 48px 28px;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+      <td style="border-left:1px solid #C4A96C;padding:12px 20px;
+        background-color:rgba(196,169,108,0.05);">
+        <p style="margin:0;padding:0;
+          font-family:'Playfair Display',Georgia,serif;font-size:17px;
+          font-style:italic;font-weight:400;line-height:1.65;color:#2C2420;">
+          &ldquo;Not bought for the season. Worn for the decade.&rdquo;
+        </p>
+      </td>
+    </tr></table>
+  </td>
+</tr>
+
+<!-- ══ 9. BODY PARA 2 ════════════════════════════════════════════ -->
+<tr>
+  <td style="padding:0 48px 36px;">
+    <p style="margin:0;padding:0;
+      font-family:'Cormorant Garamond',Georgia,serif;font-size:17px;font-weight:300;
+      line-height:1.95;color:#635A53;">
+      It wears as well with a suit as it does with weekend denim. It is the kind of boot that earns its place in a wardrobe — and simply stays there.
+    </p>
+  </td>
+</tr>
+
+<!-- ══ 10. SPECS STRIP ════════════════════════════════════════════ -->
+<tr>
+  <td style="padding:0 48px 36px;">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0"
+      style="border-top:1px solid #DDD7CD;border-bottom:1px solid #DDD7CD;">
+      <tr>
+        <td style="padding:10px 0 10px;border-bottom:1px solid #EDE8E0;width:36%;
+          font-family:'Outfit',Arial,sans-serif;font-size:9px;font-weight:300;
+          letter-spacing:0.22em;text-transform:uppercase;color:#7A6548;">
+          Upper
+        </td>
+        <td style="padding:10px 0 10px;border-bottom:1px solid #EDE8E0;
+          font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;
+          font-weight:300;color:#2C2420;">
+          Polished calf leather
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:10px 0 10px;border-bottom:1px solid #EDE8E0;
+          font-family:'Outfit',Arial,sans-serif;font-size:9px;font-weight:300;
+          letter-spacing:0.22em;text-transform:uppercase;color:#7A6548;">
+          Lining
+        </td>
+        <td style="padding:10px 0 10px;border-bottom:1px solid #EDE8E0;
+          font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;
+          font-weight:300;color:#2C2420;">
+          Full leather &amp; suede heel counter
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:10px 0 10px;border-bottom:1px solid #EDE8E0;
+          font-family:'Outfit',Arial,sans-serif;font-size:9px;font-weight:300;
+          letter-spacing:0.22em;text-transform:uppercase;color:#7A6548;">
+          Sole
+        </td>
+        <td style="padding:10px 0 10px;border-bottom:1px solid #EDE8E0;
+          font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;
+          font-weight:300;color:#2C2420;">
+          Rubber — storm welt construction
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:10px 0 10px;
+          font-family:'Outfit',Arial,sans-serif;font-size:9px;font-weight:300;
+          letter-spacing:0.22em;text-transform:uppercase;color:#7A6548;">
+          Price
+        </td>
+        <td style="padding:10px 0 10px;
+          font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;
+          font-weight:400;color:#2C2420;">
+          £260.00
+        </td>
+      </tr>
     </table>
-
-    <!-- CTA button -->
-    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:32px 0 8px;"><tr>
-      <td align="center">
-        <a href="https://www.johnwhiteshoes.co.uk/products/brecon-brown-chelsea-boot"
-           style="display:inline-block;background-color:#2C2420;color:#FAF7F2;text-decoration:none;font-family:'Outfit',Arial,sans-serif;font-size:11px;font-weight:400;letter-spacing:0.22em;text-transform:uppercase;padding:17px 48px;border:1px solid #2C2420;">VIEW THE BRECON</a>
-      </td>
-    </tr></table>
-    <p style="font-family:'Cormorant Garamond',Georgia,serif;font-size:13px;font-style:italic;color:#7A7068;text-align:center;margin:10px 0 0;">Free UK delivery on orders over £75</p>
-
-    <!-- Heritage badge -->
-    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:32px 0 8px;"><tr>
-      <td align="center" style="padding:20px 0 8px;">
-        <span style="font-family:'Playfair Display',Georgia,serif;font-size:26px;color:#C4A96C;display:block;line-height:1;">1919</span>
-        <span style="font-family:'Outfit',Arial,sans-serif;font-size:9px;font-weight:300;letter-spacing:0.3em;text-transform:uppercase;color:#7A6548;display:block;margin-top:4px;">British Heritage Footwear</span>
-      </td>
-    </tr></table>
-
   </td>
 </tr>
 
-<!-- ══ FOOTER ══════════════════════════════════════════ -->
+<!-- ══ 11. CTA ════════════════════════════════════════════════════ -->
 <tr>
-  <td class="footer-cell" style="background-color:#2C2420;padding:40px 40px 32px;text-align:center;border-top:1px solid rgba(196,169,108,0.15);">
+  <td align="center" style="padding:0 48px 12px;">
+    <a href="https://www.johnwhiteshoes.co.uk/products/brecon-brown-chelsea-boot"
+      style="display:inline-block;background-color:#2C2420;color:#FAF7F2;
+        font-family:'Outfit',Arial,sans-serif;font-size:10px;font-weight:300;
+        letter-spacing:0.28em;text-transform:uppercase;
+        padding:16px 52px;border:none;text-decoration:none;">
+      Discover the Brecon
+    </a>
+  </td>
+</tr>
+<tr>
+  <td align="center" style="padding:0 48px 44px;">
+    <p style="margin:0;padding:0;
+      font-family:'Cormorant Garamond',Georgia,serif;font-size:13px;
+      font-style:italic;font-weight:300;color:#9E9690;letter-spacing:0.02em;">
+      Free UK delivery &nbsp;·&nbsp; 30-day returns
+    </p>
+  </td>
+</tr>
 
-    <!-- Gold gradient top rule -->
-    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:28px;"><tr>
-      <td style="height:1px;background:linear-gradient(to right,#2C2420,#C4A96C 30%,#7A6548 50%,#C4A96C 70%,#2C2420);font-size:0;line-height:0;">&nbsp;</td>
-    </tr></table>
+<!-- ══ 12. HERITAGE STAMP ════════════════════════════════════════ -->
+<tr>
+  <td align="center" style="padding:0 48px 44px;">
+    <table cellpadding="0" cellspacing="0" border="0" style="margin:0 auto;">
+    <tr>
+      <td align="center"
+        style="border:1px solid #DDD7CD;padding:16px 28px;background-color:#FAF7F2;">
+        <span style="font-family:'Playfair Display',Georgia,serif;font-size:22px;
+          color:#C4A96C;display:block;line-height:1;margin-bottom:5px;">1919</span>
+        <span style="font-family:'Outfit',Arial,sans-serif;font-size:8px;font-weight:300;
+          letter-spacing:0.35em;text-transform:uppercase;color:#9E9690;display:block;">
+          British Design Heritage
+        </span>
+      </td>
+    </tr>
+    </table>
+  </td>
+</tr>
 
-    <!-- Footer logo -->
-    <img src="https://raw.githubusercontent.com/JWAssets01/jws-assets/main/assets/jw-logo-white.png" alt="John White Shoes" width="110" style="display:block;margin:0 auto 18px;max-width:110px;opacity:0.9;">
+<!-- ══ 13. FOOTER ════════════════════════════════════════════════ -->
+<tr>
+  <td class="foot-pad"
+    style="background-color:#2C2420;padding:36px 48px 28px;
+      border-top:1px solid rgba(196,169,108,0.12);">
+
+    <!-- Thin gold rule -->
+    <table width="100%" cellpadding="0" cellspacing="0" border="0"
+      style="margin-bottom:28px;">
+    <tr><td style="height:1px;font-size:0;line-height:0;
+      background:linear-gradient(to right,transparent,rgba(196,169,108,0.5) 35%,rgba(122,101,72,0.7) 50%,rgba(196,169,108,0.5) 65%,transparent);">
+    </td></tr></table>
+
+    <!-- Logo — subtle in footer -->
+    <table width="100%" cellpadding="0" cellspacing="0" border="0"
+      style="margin-bottom:16px;">
+    <tr><td align="center">
+      <img src="https://raw.githubusercontent.com/JWAssets01/jws-assets/main/assets/jw-logo-white.png" alt="John White Shoes" width="80" height="auto"
+        style="display:block;margin:0 auto;max-width:80px;opacity:0.5;">
+    </td></tr></table>
 
     <!-- Tagline -->
-    <p style="font-family:'Cormorant Garamond',Georgia,serif;font-size:13px;font-style:italic;font-weight:300;color:rgba(250,247,242,0.5);margin:0 0 20px;">A century of British design heritage.</p>
-
-    <!-- Social links -->
-    <p style="margin:0 0 20px;">
-      <a href="https://www.instagram.com/johnwhiteshoes" style="font-family:'Outfit',Arial,sans-serif;font-size:9px;font-weight:300;letter-spacing:0.2em;text-transform:uppercase;color:#C4A96C;text-decoration:none;margin:0 10px;">Instagram</a>
-      <a href="https://www.linkedin.com/company/john-white-shoes" style="font-family:'Outfit',Arial,sans-serif;font-size:9px;font-weight:300;letter-spacing:0.2em;text-transform:uppercase;color:#C4A96C;text-decoration:none;margin:0 10px;">LinkedIn</a>
-      <a href="https://twitter.com/johnwhiteshoes" style="font-family:'Outfit',Arial,sans-serif;font-size:9px;font-weight:300;letter-spacing:0.2em;text-transform:uppercase;color:#C4A96C;text-decoration:none;margin:0 10px;">X</a>
+    <p style="margin:0 0 20px;padding:0;text-align:center;
+      font-family:'Cormorant Garamond',Georgia,serif;font-size:12px;
+      font-style:italic;font-weight:300;color:rgba(250,247,242,0.35);
+      letter-spacing:0.04em;">
+      A century of British design heritage.
     </p>
 
-    <!-- Address -->
-    <p style="font-family:'Outfit',Arial,sans-serif;font-size:10px;font-weight:300;letter-spacing:0.08em;color:rgba(250,247,242,0.35);margin:0 0 16px;line-height:1.8;">
+    <!-- Social -->
+    <p style="margin:0 0 20px;padding:0;text-align:center;">
+      <a href="https://www.instagram.com/johnwhiteshoes"
+        style="font-family:'Outfit',Arial,sans-serif;font-size:8px;font-weight:300;
+          letter-spacing:0.22em;text-transform:uppercase;
+          color:rgba(196,169,108,0.6);text-decoration:none;margin:0 10px;">
+        Instagram
+      </a>
+      <a href="https://twitter.com/johnwhiteshoes"
+        style="font-family:'Outfit',Arial,sans-serif;font-size:8px;font-weight:300;
+          letter-spacing:0.22em;text-transform:uppercase;
+          color:rgba(196,169,108,0.6);text-decoration:none;margin:0 10px;">
+        X
+      </a>
+      <a href="https://www.linkedin.com/company/john-white-shoes"
+        style="font-family:'Outfit',Arial,sans-serif;font-size:8px;font-weight:300;
+          letter-spacing:0.22em;text-transform:uppercase;
+          color:rgba(196,169,108,0.6);text-decoration:none;margin:0 10px;">
+        LinkedIn
+      </a>
+    </p>
+
+    <!-- Address + legal -->
+    <p style="margin:0 0 14px;padding:0;text-align:center;
+      font-family:'Outfit',Arial,sans-serif;font-size:9px;font-weight:300;
+      letter-spacing:0.06em;line-height:1.8;
+      color:rgba(250,247,242,0.22);">
       John White Shoes Ltd &nbsp;·&nbsp; Northampton, England<br>
       Est. 1919 &nbsp;·&nbsp; johnwhiteshoes.com
     </p>
 
-    <!-- Footer links -->
-    <p style="margin:0 0 16px;">
-      <a href="*|UNSUB|*" style="font-family:'Outfit',Arial,sans-serif;font-size:9px;font-weight:300;letter-spacing:0.15em;text-transform:uppercase;color:rgba(250,247,242,0.4);text-decoration:none;margin:0 8px;">Unsubscribe</a>
-      <a href="*|UPDATE_PROFILE|*" style="font-family:'Outfit',Arial,sans-serif;font-size:9px;font-weight:300;letter-spacing:0.15em;text-transform:uppercase;color:rgba(250,247,242,0.4);text-decoration:none;margin:0 8px;">Preferences</a>
-      <a href="https://johnwhiteshoes.com/policies/privacy-policy" style="font-family:'Outfit',Arial,sans-serif;font-size:9px;font-weight:300;letter-spacing:0.15em;text-transform:uppercase;color:rgba(250,247,242,0.4);text-decoration:none;margin:0 8px;">Privacy</a>
+    <!-- Unsubscribe -->
+    <p style="margin:0;padding:0;text-align:center;">
+      <a href="*|UNSUB|*"
+        style="font-family:'Outfit',Arial,sans-serif;font-size:8px;font-weight:300;
+          letter-spacing:0.15em;text-transform:uppercase;
+          color:rgba(250,247,242,0.2);text-decoration:none;margin:0 8px;">
+        Unsubscribe
+      </a>
+      <a href="*|UPDATE_PROFILE|*"
+        style="font-family:'Outfit',Arial,sans-serif;font-size:8px;font-weight:300;
+          letter-spacing:0.22em;text-transform:uppercase;
+          color:rgba(250,247,242,0.2);text-decoration:none;margin:0 8px;">
+        Preferences
+      </a>
+      <a href="https://johnwhiteshoes.com/policies/privacy-policy"
+        style="font-family:'Outfit',Arial,sans-serif;font-size:8px;font-weight:300;
+          letter-spacing:0.15em;text-transform:uppercase;
+          color:rgba(250,247,242,0.2);text-decoration:none;margin:0 8px;">
+        Privacy
+      </a>
     </p>
 
-    <p style="font-family:'Outfit',Arial,sans-serif;font-size:9px;color:rgba(250,247,242,0.2);margin:0;letter-spacing:0.05em;">
+    <p style="margin:16px 0 0;padding:0;text-align:center;
+      font-family:'Outfit',Arial,sans-serif;font-size:8px;font-weight:300;
+      color:rgba(250,247,242,0.12);letter-spacing:0.05em;">
       &copy; 2026 John White Shoes Ltd. All rights reserved.
     </p>
   </td>
 </tr>
 
 </table>
-<!-- /EMAIL CONTAINER -->
+<!-- /CONTAINER -->
 
 </td></tr>
 </table>
